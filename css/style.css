@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+/* common css end */
+/* navbar css start */
+.headingNav {
+  background-color: rgba(128, 128, 128, 0.747);
+}
+.logo {
+  width: 56px;
+  height: 56px;
+}
+.navlogo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.navlogo .logo-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+/* navbar css end */
