@@ -38,8 +38,23 @@ ol {
   align-items: center;
   gap: 5px;
 }
-.navlogo .logo-text{
-    font-size: 18px;
-    font-weight: 500;
+.navlogo .logo-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e21b1b;
+}
+.navlogo:hover .logo-text {
+  color: #3b3bfcd8;
+}
+.navMenu ul {
+  gap: 35px;
+}
+.navMenu ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3b3bfcd8 !important;
+}
+.navMenu ul li a:hover {
+  color: #e21b1b !important;
 }
 /* navbar css end */
