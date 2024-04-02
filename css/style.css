@@ -57,4 +57,12 @@ ol {
 .navMenu ul li a:hover {
   color: #e21b1b !important;
 }
+.nev-btn {
+  color: #3b3bfcd8;
+  border: 2px solid #e21b1b;
+}
+.nev-btn:hover {
+  background-color: #e21b1b;
+  border: 2px solid #e21b1b;
+}
 /* navbar css end */
